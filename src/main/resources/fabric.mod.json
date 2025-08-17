@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "grimveil",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.grimveil.GrimVeil"
+		],
+		"fabric-datagen": [
+			"net.grimveil.GrimVeilDataGenerator"
+		],
+        "client": [
+          "net.grimveil.GrimVeilClient"
+        ]
+	},
+	"mixins": [
+		"grimveil.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+    "version": "${version}",
+    "name": "GrimVeil",
+    "description": "This is an example description! Tell everyone what your mod is about!",
+    "authors": [
+      "Me!"
+    ],
+    "contact": {
+      "homepage": "https://fabricmc.net/",
+      "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/grimveil/icon.png"
+}
