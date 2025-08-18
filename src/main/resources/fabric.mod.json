@@ -20,21 +20,38 @@
 		"fabricloader": ">=0.17.2",
 		"minecraft": "~1.21.4",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+        "terraform-wood-api-v1": ">=13.0.0"
 	},
 	"suggests": {
 		"another-mod": "*"
 	},
+
     "version": "${version}",
     "name": "GrimVeil",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+    "description": "A dark expansion of biomes, materials, and weird creatures. GrimVeil expands your creative and survival progression. Can you survive a world cast in shade?",
     "authors": [
-      "Me!"
+      "justcerise"
+    ],
+    "contributors": [
+      "NERITH - Music",
+      "Deltz - Playtesting",
+      "Smug - Playtesting"
     ],
     "contact": {
-      "homepage": "https://fabricmc.net/",
-      "sources": "https://github.com/FabricMC/fabric-example-mod"
+      "homepage": "https://modrinth.com/organization/shade-archive",
+      "sources": "https://github.com/justcerise/GrimVeil",
+      "issues": "https://github.com/justcerise/GrimVeil/issues"
     },
-    "license": "CC0-1.0",
+    "custom": {
+      "modmenu": {
+        "links": {
+          "modmenu.discord": "https://discord.gg/wPxDXyBywC"
+        },
+        "update_checker": true
+      }
+    },
+    "license": "MIT",
     "icon": "assets/grimveil/icon.png"
+
 }
