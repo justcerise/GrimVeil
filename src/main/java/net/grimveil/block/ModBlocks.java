@@ -244,6 +244,7 @@ public class ModBlocks {
             PillarBlock::new,
             AbstractBlock.Settings.copy(Blocks.DEEPSLATE),
             true);
+
     public static final Block COBBLED_GRIMSTONE = register(
             "cobbled_grimstone",
             Block::new,
@@ -259,9 +260,71 @@ public class ModBlocks {
             SlabBlock::new,
             AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_STAIRS),
             true);
-
     public static final Block COBBLED_GRIMSTONE_WALL = register(
             "cobbled_grimstone_wall",
+            WallBlock::new,
+            AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_WALL),
+            true);
+
+    public static final Block GRIMSTONE_BRICKS = register(
+            "grimstone_bricks",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.COBBLED_DEEPSLATE),
+            true);
+    public static final Block GRIMSTONE_BRICK_STAIRS = register(
+            "grimstone_brick_stairs",
+            settings -> new StairsBlock(BYSMAL_PLANKS.getDefaultState(), settings),
+            AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_SLAB),
+            true);
+    public static final Block GRIMSTONE_BRICK_SLAB = register(
+            "grimstone_brick_slab",
+            SlabBlock::new,
+            AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_STAIRS),
+            true);
+    public static final Block GRIMSTONE_BRICK_WALL = register(
+            "grimstone_brick_wall",
+            WallBlock::new,
+            AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_WALL),
+            true);
+
+    public static final Block GRIMSTONE_TILES = register(
+            "grimstone_tiles",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.COBBLED_DEEPSLATE),
+            true);
+    public static final Block GRIMSTONE_TILE_STAIRS = register(
+            "grimstone_tile_stairs",
+            settings -> new StairsBlock(BYSMAL_PLANKS.getDefaultState(), settings),
+            AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_SLAB),
+            true);
+    public static final Block GRIMSTONE_TILE_SLAB = register(
+            "grimstone_tile_slab",
+            SlabBlock::new,
+            AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_STAIRS),
+            true);
+    public static final Block GRIMSTONE_TILE_WALL = register(
+            "grimstone_tile_wall",
+            WallBlock::new,
+            AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_WALL),
+            true);
+
+    public static final Block GRIMSTONE_SQUARE_TILES = register(
+            "grimstone_square_tiles",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.COBBLED_DEEPSLATE),
+            true);
+    public static final Block GRIMSTONE_SQUARE_TILE_STAIRS = register(
+            "grimstone_square_tile_stairs",
+            settings -> new StairsBlock(BYSMAL_PLANKS.getDefaultState(), settings),
+            AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_SLAB),
+            true);
+    public static final Block GRIMSTONE_SQUARE_TILE_SLAB = register(
+            "grimstone_square_tile_slab",
+            SlabBlock::new,
+            AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_STAIRS),
+            true);
+    public static final Block GRIMSTONE_SQUARE_TILE_WALL = register(
+            "grimstone_square_tile_wall",
             WallBlock::new,
             AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILE_WALL),
             true);
@@ -272,6 +335,12 @@ public class ModBlocks {
             .sign(ModBlocks.BYSMAL_SIGN, ModBlocks.BYSMAL_WALL_SIGN)
             .group("wooden").unlockCriterionName("has_planks").build();
     public static final BlockFamily GRIMSTONE_FAMILY = BlockFamilies.register(ModBlocks.COBBLED_GRIMSTONE)
+            .group("stone").unlockCriterionName("has_stone").build();
+    public static final BlockFamily GRIMSTONE_BRICKS_FAMILY = BlockFamilies.register(ModBlocks.GRIMSTONE_BRICKS)
+            .group("stone").unlockCriterionName("has_stone").build();
+    public static final BlockFamily GRIMSTONE_TILES_FAMILY = BlockFamilies.register(ModBlocks.GRIMSTONE_TILES)
+            .group("stone").unlockCriterionName("has_stone").build();
+    public static final BlockFamily GRIMSTONE_SQUARE_TILES_FAMILY = BlockFamilies.register(ModBlocks.GRIMSTONE_SQUARE_TILES)
             .group("stone").unlockCriterionName("has_stone").build();
 
 

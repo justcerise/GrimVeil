@@ -15,10 +15,12 @@
   "sounds.grimveil.entity_shade_scream": "Eerie Call",
 
 
-  "itemgroup.grimveil.tools_and_utilities": "GrimVeil Tools & Utilities",
-  "itemgroup.grimveil.bysmal_wood_blocks": "GrimVeil Wood Blocks",
-  "itemgroup.grimveil.bysmal_stone_blocks": "GrimVeil Stone Blocks",
-  "itemgroup.grimveil.bysmal_ingredients": "GrimVeil Ingredients",
+  "itemgroup.grimveil.building": "GrimVeil: Building Blocks",
+  "itemgroup.grimveil.natural": "GrimVeil: Natural Blocks",
+  "itemgroup.grimveil.flora": "GrimVeil: Flora",
+  "itemgroup.grimveil.decor": "GrimVeil: Decor",
+  "itemgroup.grimveil.gear_n_utilities": "GrimVeil: Gear n' Utilities",
+  "itemgroup.grimveil.ingredients": "GrimVeil: Ingredients",
 
   "item.grimveil.bysmal_branch": "Bysmal Branch",
   "item.grimveil.shade_fragment": "Shade Fragment",
@@ -75,5 +77,17 @@
   "item.grimveil.cobbled_grimstone": "Cobbled Grimstone",
   "item.grimveil.cobbled_grimstone_stairs": "Cobbled Grimstone Stairs",
   "item.grimveil.cobbled_grimstone_slab": "Cobbled Grimstone Slab",
-  "item.grimveil.cobbled_grimstone_wall": "Cobbled Grimstone Wall"
+  "item.grimveil.cobbled_grimstone_wall": "Cobbled Grimstone Wall",
+  "item.grimveil.grimstone_bricks": "Grimstone Bricks",
+  "item.grimveil.grimstone_brick_stairs": "Grimstone Brick Stairs",
+  "item.grimveil.grimstone_brick_slab": "Grimstone Brick Slab",
+  "item.grimveil.grimstone_brick_wall": "Grimstone Brick Wall",
+  "item.grimveil.grimstone_tiles": "Grimstone Tiles",
+  "item.grimveil.grimstone_tile_stairs": "Grimstone Tile Stairs",
+  "item.grimveil.grimstone_tile_slab": "Grimstone Tile Slab",
+  "item.grimveil.grimstone_tile_wall": "Grimstone Tile Wall",
+  "item.grimveil.grimstone_square_tiles": "Grimstone Square Tiles",
+  "item.grimveil.grimstone_square_tile_stairs": "Grimstone Square Tile Stairs",
+  "item.grimveil.grimstone_square_tile_slab": "Grimstone Square Tile Slab",
+  "item.grimveil.grimstone_square_tile_wall": "Grimstone Square Tile Wall"
 }

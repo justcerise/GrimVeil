@@ -18,6 +18,9 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         BlockStateModelGenerator.BlockTexturePool bysmalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BYSMAL_PLANKS);
         BlockStateModelGenerator.BlockTexturePool grimstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.COBBLED_GRIMSTONE);
+        BlockStateModelGenerator.BlockTexturePool grimstoneBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRIMSTONE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool grimstoneTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRIMSTONE_TILES);
+        BlockStateModelGenerator.BlockTexturePool grimstoneSquareTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRIMSTONE_SQUARE_TILES);
 
         blockStateModelGenerator.registerLog(ModBlocks.BYSMAL_LOG).log(ModBlocks.BYSMAL_LOG).wood(ModBlocks.BYSMAL_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BYSMAL_LOG).log(ModBlocks.STRIPPED_BYSMAL_LOG).wood(ModBlocks.STRIPPED_BYSMAL_WOOD);
@@ -55,7 +58,22 @@ public class ModModelProvider extends FabricModelProvider {
         grimstonePool.slab(ModBlocks.COBBLED_GRIMSTONE_SLAB);
         grimstonePool.wall(ModBlocks.COBBLED_GRIMSTONE_WALL);
 
+        grimstoneBricksPool.stairs(ModBlocks.GRIMSTONE_BRICK_STAIRS);
+        grimstoneBricksPool.slab(ModBlocks.GRIMSTONE_BRICK_SLAB);
+        grimstoneBricksPool.wall(ModBlocks.GRIMSTONE_BRICK_WALL);
+
+        grimstoneTilesPool.stairs(ModBlocks.GRIMSTONE_TILE_STAIRS);
+        grimstoneTilesPool.slab(ModBlocks.GRIMSTONE_TILE_SLAB);
+        grimstoneTilesPool.wall(ModBlocks.GRIMSTONE_TILE_WALL);
+
+        grimstoneSquareTilesPool.stairs(ModBlocks.GRIMSTONE_SQUARE_TILE_STAIRS);
+        grimstoneSquareTilesPool.slab(ModBlocks.GRIMSTONE_SQUARE_TILE_SLAB);
+        grimstoneSquareTilesPool.wall(ModBlocks.GRIMSTONE_SQUARE_TILE_WALL);
+
         grimstonePool.family(ModBlocks.GRIMSTONE_FAMILY);
+        grimstonePool.family(ModBlocks.GRIMSTONE_BRICKS_FAMILY);
+        grimstonePool.family(ModBlocks.GRIMSTONE_TILES_FAMILY);
+        grimstonePool.family(ModBlocks.GRIMSTONE_SQUARE_TILES_FAMILY);
     }
 
     @Override

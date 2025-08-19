@@ -98,7 +98,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.BYSMAL_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(ModBlocks.COBBLED_GRIMSTONE_WALL);
+                .add(
+                        ModBlocks.COBBLED_GRIMSTONE_WALL,
+                        ModBlocks.GRIMSTONE_BRICK_WALL,
+                        ModBlocks.GRIMSTONE_TILE_WALL,
+                        ModBlocks.GRIMSTONE_SQUARE_TILE_WALL
+                );
 
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.BYSMAL_LOG,ModBlocks.BYSMAL_WOOD,ModBlocks.STRIPPED_BYSMAL_LOG,ModBlocks.STRIPPED_BYSMAL_WOOD);
