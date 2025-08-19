@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "grimveil:item/shade_steel_hammer"
+  }
+}

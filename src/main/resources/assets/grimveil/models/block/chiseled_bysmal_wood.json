@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "grimveil:block/chiseled_bysmal_wood_top",
+    "side": "grimveil:block/chiseled_bysmal_wood"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.grimveil.from_the_forest_music_disc_desc"
+  },
+  "length_in_seconds": 158,
+  "sound_event": "grimveil:transmission_from_the_forest"
+}

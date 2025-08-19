@@ -1,0 +1,60 @@
+{
+  "bysmal_block_break": {
+    "subtitle": "sounds.grimveil.bysmal_block_break",
+    "sounds": [
+      "grimveil:bysmal_block_break"
+    ]
+  },
+  "a_forests_lost_voice": {
+    "sounds": [
+      {
+        "name": "grimveil:a_forests_lost_voice",
+        "stream": true
+      }
+    ]
+  },
+  "transmission_from_the_forest": {
+    "sounds": [
+      {
+        "name": "grimveil:transmission_from_the_forest",
+        "stream": true
+      }
+    ]
+  },
+  "flux": {
+    "sounds": [
+      {
+        "name": "grimveil:flux",
+        "stream": true
+      }
+    ]
+  },
+  "still_i_danced": {
+    "sounds": [
+      {
+        "name": "grimveil:still_i_danced",
+        "stream": true
+      }
+    ]
+  },
+  "entity_shade_ambient": {
+    "subtitle": "sounds.grimveil.entity_shade_ambient",
+    "sounds": [
+      { "name":  "grimveil:mob/shade/shade_ambient1", "stream":  false},
+      { "name":  "grimveil:mob/shade/shade_ambient2", "stream":  false},
+      { "name":  "grimveil:mob/shade/shade_ambient3", "stream":  false}
+    ]
+  },
+  "entity_shade_hurt": {
+    "subtitle": "sounds.grimveil.entity_shade_hurt",
+    "sounds": [
+      { "name":  "grimveil:mob/shade/shade_hurt", "stream":  false}
+    ]
+  },
+  "entity_shade_scream": {
+    "subtitle": "sounds.grimveil.entity_shade_scream",
+    "sounds": [
+      { "name":  "grimveil:mob/shade/shade_scream", "stream":  false}
+    ]
+  }
+}

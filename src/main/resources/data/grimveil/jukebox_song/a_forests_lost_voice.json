@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.grimveil.a_forests_lost_voice_music_disc_desc"
+  },
+  "length_in_seconds": 158,
+  "sound_event": "grimveil:a_forests_lost_voice"
+}

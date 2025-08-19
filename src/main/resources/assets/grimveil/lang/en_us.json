@@ -1,0 +1,79 @@
+{
+  "item.grimveil.a_forests_lost_voice_music_disc": "Music Disc",
+  "item.grimveil.a_forests_lost_voice_music_disc_desc": "NERITH - A Forests Lost voice",
+  "item.grimveil.flux_music_disc": "Music Disc",
+  "item.grimveil.flux_music_disc_desc": "NERITH - Flux (special)",
+  "item.grimveil.transmission_from_the_forest_music_disc": "Music Disc",
+  "item.grimveil.from_the_forest_music_disc_desc": "NERITH - Transmission from the forest (extra)",
+  "item.grimveil.still_i_danced_music_disc": "Music Disc",
+  "item.grimveil.still_i_danced_music_disc_desc": "NERITH - Still I Danced (special)",
+  "item.grimveil.shade_spawn_egg": "Shade Spawn Egg",
+
+  "entity.grimveil.shade": "Shade",
+  "sounds.grimveil.entity_shade_ambient": "Faint Noise",
+  "sounds.grimveil.entity_shade_hurt": "Shade Hurt",
+  "sounds.grimveil.entity_shade_scream": "Eerie Call",
+
+
+  "itemgroup.grimveil.tools_and_utilities": "GrimVeil Tools & Utilities",
+  "itemgroup.grimveil.bysmal_wood_blocks": "GrimVeil Wood Blocks",
+  "itemgroup.grimveil.bysmal_stone_blocks": "GrimVeil Stone Blocks",
+  "itemgroup.grimveil.bysmal_ingredients": "GrimVeil Ingredients",
+
+  "item.grimveil.bysmal_branch": "Bysmal Branch",
+  "item.grimveil.shade_fragment": "Shade Fragment",
+  "item.grimveil.void_steel_ingot": "Void Steel Ingot",
+  "item.grimveil.shade_steel_ingot": "Shade Steel Ingot",
+
+  "item.grimveil.shade_steel_sword": "Shade Steel Sword",
+  "item.grimveil.shade_steel_axe": "Shade Steel Axe",
+  "item.grimveil.shade_steel_pickaxe": "Shade Steel Pickaxe",
+  "item.grimveil.shade_steel_shovel": "Shade Steel Shovel",
+  "item.grimveil.shade_steel_hoe": "Shade Steel Hoe",
+  "item.grimveil.shade_steel_hammer": "Shade Steel Hammer",
+
+
+
+  "item.grimveil.bysmal_log": "Bysmal Log",
+  "item.grimveil.stripped_bysmal_log": "Stripped Bysmal Log",
+  "item.grimveil.bysmal_wood": "Bysmal Wood",
+  "item.grimveil.stripped_bysmal_wood": "Stripped Bysmal Wood",
+
+  "item.grimveil.bysmal_sapling": "Bysmal Sapling",
+  "item.grimveil.bysmal_leaves": "Bysmal Leaves",
+
+  "item.grimveil.bysmal_planks": "Bysmal Planks",
+  "item.grimveil.chiseled_bysmal_wood": "Chiseled Bysmal Wood",
+  "item.grimveil.diagonally_chiseled_bysmal_wood": "Diagonally Chiseled Bysmal Wood",
+  "item.grimveil.refined_chiseled_bysmal_wood": "Refined Chiseled Bysmal Wood",
+
+  "item.grimveil.bysmal_stairs": "Bysmal Stairs",
+  "item.grimveil.bysmal_slab": "Bysmal Slab",
+
+  "item.grimveil.bysmal_door": "Bysmal Door",
+  "item.grimveil.bysmal_trapdoor": "Bysmal Trapdoor",
+  "item.grimveil.bysmal_fence": "Bysmal Fence",
+  "item.grimveil.bysmal_fence_gate": "Bysmal Fence Gate",
+  "item.grimveil.bysmal_pressure_plate": "Bysmal Pressure Plate",
+  "item.grimveil.bysmal_button": "Bysmal Button",
+  "item.grimveil.bysmal_sign": "Bysmal Sign",
+  "item.grimveil.bysmal_hanging_sign": "Bysmal Hanging Sign",
+  "item.grimveil.bysmal_boat": "Bysmal Boat",
+  "item.grimveil.bysmal_chest_boat": "Bysmal Chest Boat",
+
+  "item.grimveil.void_steel_ore": "Void Steel Ore",
+  "item.grimveil.deepslate_void_steel_ore": "Deepslate Void Steel Ore",
+
+  "item.grimveil.bysmal_grass_block": "Bysmal Grass Block",
+  "item.grimveil.bysmal_long_grass": "Bysmal Long Grass",
+  "item.grimveil.bysmal_short_grass": "Bysmal Short Grass",
+
+  "item.grimveil.bysmal_dirt": "Bysmal Dirt",
+  "item.grimveil.bysmal_moss_block": "Bysmal Moss Block",
+
+  "item.grimveil.grimstone": "Grimstone",
+  "item.grimveil.cobbled_grimstone": "Cobbled Grimstone",
+  "item.grimveil.cobbled_grimstone_stairs": "Cobbled Grimstone Stairs",
+  "item.grimveil.cobbled_grimstone_slab": "Cobbled Grimstone Slab",
+  "item.grimveil.cobbled_grimstone_wall": "Cobbled Grimstone Wall"
+}

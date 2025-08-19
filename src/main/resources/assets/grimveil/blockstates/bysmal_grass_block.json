@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "grimveil:block/bysmal_grass_block"
+      },
+      {
+        "model": "grimveil:block/bysmal_grass_block",
+        "y": 90
+      },
+      {
+        "model": "grimveil:block/bysmal_grass_block",
+        "y": 180
+      },
+      {
+        "model": "grimveil:block/bysmal_grass_block",
+        "y": 270
+      }
+    ],
+    "snowy=true": {
+      "model": "grimveil:block/bysmal_grass_block"
+    }
+  }
+}

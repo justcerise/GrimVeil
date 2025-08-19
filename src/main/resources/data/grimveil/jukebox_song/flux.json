@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.grimveil.flux_music_disc_desc"
+  },
+  "length_in_seconds": 135,
+  "sound_event": "grimveil:flux"
+}
