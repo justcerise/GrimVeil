@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.grimveil.entity.custom.ShadeEntity;
 import net.grimveil.util.HammerUsageEvent;
-import net.minecraft.client.render.entity.model.ElytraEntityModel;
 import net.minecraft.item.*;
 import net.grimveil.block.ModBlocks;
 import net.grimveil.entity.ModEntities;
